@@ -3,12 +3,12 @@ import { Typography } from '@mui/material';
 import Navbar from "../../components/navbar/Navbar";
 import Footer from '../../components/footer/Footer';
 import Block1 from '../../contents/home/block1/Block1';
-import Block2 from 'contents/home/block2/Block2';
+import Block2 from '../../contents/home/block2/Block2';
 import Block3 from '../../contents/home/Block3'
-import SwiggySlider from 'components/allcarousel/carousel/carousel2/SwiggySlider';
-import { other } from 'constants/slider/other';
-import { block2_Images } from 'constants/Images/block2_Images';
-import block3_Images from 'constants/Images/block3_Images';
+import SwiggySlider from '../../components/allcarousel/carousel/carousel2/SwiggySlider';
+import { other } from '../../constants/slider/other';
+import { block2_Images } from '../../constants/Images/block2_Images';
+import block3_Images from '../../constants/Images/block3_Images';
 
 const Home = () => {
   return (
