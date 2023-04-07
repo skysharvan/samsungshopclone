@@ -1,6 +1,6 @@
 
-import { CurrencyExchangeTwoTone, EastOutlined, Facebook, FiberManualRecordTwoTone, Instagram, LocalShippingTwoTone, Mail, MoneyTwoTone, Pinterest, Twitter, YouTube } from '@mui/icons-material';
-import { Box, Typography,styled, TextField, Button } from '@mui/material'
+import {  Facebook, Instagram, Pinterest, Twitter, YouTube } from '@mui/icons-material';
+import { Box, Typography,styled } from '@mui/material'
 import React from 'react'
 import "./footer.css"
 import {Link}from 'react-router-dom'
@@ -8,53 +8,16 @@ import {Divider} from '@mui/material'
   
 const Ram = styled(Box)(({theme}) => ({
         display:'flex',
-        // alignItems:'center',
-        // justifyContent:'center',
-        // backgroundColor:theme.colors.alpha.black[100],
         height:'auto',
         width:'100%',
         gap:'20px',
-        // color:theme.colors.alpha.white[100],
         paddingTop:'20px',
         [theme.breakpoints.down('md')]: {
          flexDirection:'column',
           padding:'20px',
           alignItems:'flex-end'
-        // display:'none'
       }
         
-}));
-const Lakshman = styled(Box)(({theme}) => ({
-  display:'flex',
-  justifyContent:'space-evenly',
-  // backgroundColor:theme.colors.alpha.black[100],
-  height:'auto',
-  width:'100%',
-  // color:theme.colors.alpha.white[100],
-  padding:'30px',
-  [theme.breakpoints.up('md')]: {
-  //  flexDirection:'column',
-  //   padding:'10px',
-  display:'none',
-}
-  
-}));
-const Sita = styled(Box)(({theme}) => ({
-  display:'flex',
-  justifyContent:'space-evenly',
-  // backgroundColor:theme.colors.alpha.black[100],
-  height:'50px',
-  width:'100%',
-  flexDirection:'row',
-  // color:theme.colors.alpha.white[100],
-  alignItems:'center',
- 
-  [theme.breakpoints.down('md')]: {
-    //  flexDirection:'column',
-    //   padding:'10px'
-    height:'100px',
-  }
-
 }));
 
 const Footer = () => {

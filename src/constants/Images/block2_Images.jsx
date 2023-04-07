@@ -69,26 +69,7 @@ export const block2_Images=[
         name:'Galaxy S23',
         price:'15999'
       },
-      {
-        url:'https://images.samsung.com/is/image/samsung/p6pim/in/np750xed-kb1in/gallery/in-galaxy-book2-np750xeda-423586-np750xed-kb1in-532341892?$2052_1641_PNG$',
-        name:'Galaxy Book2',
-        price:'61000'
-      },
-      // {
-      //   url:'https://images.samsung.com/is/image/samsung/assets/in/dpa/sm-a736blgh-sm-r177nzwa.png?$2052_1641_PNG$',
-      //   name:'Galaxy A73 %G',
-      //   price:'41000'
-      // },
-      // {
-      //   url:'https://images.samsung.com/is/image/samsung/in-side-by-side-rs74r5101sl-rs74r5101sl-tl-frontsilver-155205068?$2052_1641_PNG$',
-      //   name:'Tecnology RS',
-      //   price:'100000'
-      // },
-      // {
-      //   url:'https://images.samsung.com/is/image/samsung/in-side-by-side-rs74r5101sl-rs74r5101sl-tl-frontsilver-155205068?$2052_1641_PNG$',
-      //   name:'Tecnology RS',
-      //   price:'100000'
-      // },
+      
       
   
 ]

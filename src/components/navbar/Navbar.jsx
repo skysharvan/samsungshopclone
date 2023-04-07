@@ -1,10 +1,7 @@
 import React,{useState} from 'react';
 import SearchBar from '../searchbar/SearchBar'
 import SearchIcon from '@mui/icons-material/Search';
-// import NavButton from 'components/navButton/NavButton'
 import {Link} from 'react-router-dom';
-// import Slider from '@mui/material/Slider';
-// import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 import "./navbar.css"
 import {
     AppBar,
@@ -13,18 +10,11 @@ import {
     Typography,
     styled,
     Drawer,
-    IconButton,
-    // TextField,
-    // List,
-    // ListItemText,
-    // Badge,
-    
-    
+    IconButton, 
   } from "@mui/material";
-
-// import { AccountCircle, Call, EastOutlined, FavoriteBorder, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
 import {Menu , Person2Outlined , ShoppingBag} from '@mui/icons-material';
 import MenuButtons from 'components/menuButtons/MenuButtons';
+
 
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
@@ -33,7 +23,6 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
     display: 'flex',
     justifyContent:'space-between',
     alignItems: 'center',
-    // position: 'sticky',
     [theme.breakpoints.down('md')]: {
         height: 'auto',
         
@@ -47,7 +36,6 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
           width:'102.5%',
               padding:'0px',
              
-              // justifyContent:'space-between'
           },
         
         color:theme.header.background,
@@ -58,12 +46,10 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
     
     const NavLeft = styled(Box)(({theme}) => ({
         
-        // flex:'3',
+        
         display: 'flex',
         gap:'17px', 
         marginLeft:'10px',
-          // justifyContent: 'space-between',
-        // paddingLeft:'30px',
         alignItems: 'center',
         [theme.breakpoints.down('lg')]: {
             gap:"10px",
@@ -71,7 +57,6 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
 
         },
         [theme.breakpoints.down('sm')]: {
-            // paddingLeft:'0px',
             marginLeft:'0px',
             width:'250px'
         },
@@ -79,26 +64,13 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         
     }));
     const NavRight = styled(Box)(({theme}) => ({
-       
-        // flex:'3',
-        display: 'flex',
-        //  gap:'10px',
-        // paddingRight:'30px',
+           display: 'flex',
            flexDirection:"row",
-        alignItems: 'center',
-        marginRight:'10px',
-        // [theme.breakpoints.down('md')]: {
-            //     justifyContent:"space-between"
-            // },
+           alignItems: 'center',
+           marginRight:'10px',
             [theme.breakpoints.down('sm')]: {
-              //  paddingRight:'0px',
-              //  margin:'0px'
-              //  display:'block',
               marginRight:'20px',
-                // display:''
-            },
-            
-            
+            }, 
         }));
 
       
@@ -154,8 +126,7 @@ const NavBar = styled(AppBar)(({theme}) =>({
 
 
 export default function Navbar() {
-    // const arr = [{name:'title'},{name:'about'},{name:'contact'}]
-    // const theme = useTheme();
+  
     const [open, setOpen] = useState(false);
 
     const handleOpen = ()=>{
